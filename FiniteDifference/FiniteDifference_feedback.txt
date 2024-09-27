@@ -1,0 +1,27 @@
+12/11/18 09:13
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (5 points):
+not seeing the second-order convergence
+Score += 3
+
+Problem 4 (15 points):
+Score += 15
+
+Problem 5 (5 points):
+Score += 5
+
+Problem 6 (5 points):
+Score += 5
+
+Total score: 38/40 = 95.0%
+
+Great job!
+
+-------------------------------------------------------------------------------
+

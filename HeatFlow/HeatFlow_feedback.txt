@@ -1,0 +1,17 @@
+12/11/18 09:34
+
+Problem 1 (5 points):
+You should be handling the boundary conditions: notice how your solution at t=.4 has nonzero temperature at the boundaries.
+Score += 4
+
+Problem 2 (10 points):
+Your animations don't appear to work. Part of the issue might be that your function ibvp doesn't return the full solution array, just the array at time step i, which is a very inefficient implementation.
+Score += 4
+
+Problem 3 (15 points):
+Score += 15
+
+Total score: 23/30 = 76.67%
+
+-------------------------------------------------------------------------------
+
