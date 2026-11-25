@@ -4,6 +4,7 @@ My solutions to the modeling labs from BYU's Applied and Computational Mathemati
 
 | Lab | Volume | Notebook |
 |-----|--------|----------|
+| Introduction to Matplotlib: 3D Plotting and Animations | Vol. 4* | [Animation/animation.ipynb](Animation/animation.ipynb) |
 | Numerical Methods for Initial Value Problems; Harmonic Oscillators | Vol. 4, Lab 1 | [IVP/ivp.ipynb](IVP/ivp.ipynb) |
 | Weight change and Predator-Prey Models | Vol. 4, Lab 2 | [WeightLoss/weightloss.ipynb](WeightLoss/weightloss.ipynb) |
 | Modelling the spread of an epidemic: SIR models | Vol. 4, Lab 4 | [SIR/sir.ipynb](SIR/sir.ipynb) |
@@ -23,12 +24,14 @@ My solutions to the modeling labs from BYU's Applied and Computational Mathemati
 | The Inverted Pendulum | Vol. 4, Lab 21 | [InvertedPendulum/inverted_pendulum.ipynb](InvertedPendulum/inverted_pendulum.ipynb) |
 | HIV Treatment Using Optimal Control | Vol. 4, Lab 23 | [HIV/hiv.ipynb](HIV/hiv.ipynb) |
 
+\* The course assigned this lab in September 2018; it joined the manual as Lab 1 in the January 2019 edition.
+
 Lab numbers follow the August 2018 edition of Volume 4, the one these labs were written against. Problem statements are quoted from the course's lab notebooks where I had them, which differ in places from the manual, and from that edition otherwise. Most folders also keep the grader feedback from my original submissions (`*_feedback.txt`).
 
 ## Running the notebooks
 
-Each notebook runs from its own folder. The images each lab uses sit next to its notebook. The notebooks need NumPy, SciPy, Matplotlib and imageio. The Finite Difference and River Crossing labs also need [autograd](https://github.com/HIPS/autograd) (`pip install autograd`). Animations are embedded as interactive HTML, which plays in Jupyter but not in GitHub's notebook viewer; the two Lorenz animations are also kept as `.mp4` files.
+Each notebook runs from its own folder. The images and data each lab uses sit next to its notebook, except `vibration.npz` (73 MB) for the Animation lab's Problem 5: download `vibration.npz.gz` from ACME's [data repository](https://github.com/Foundations-of-Applied-Mathematics/Data/tree/master/Animation) and unzip it in `Animation/`. The notebooks need NumPy, SciPy, Matplotlib and imageio. The Finite Difference and River Crossing labs also need [autograd](https://github.com/HIPS/autograd) (`pip install autograd`). Animations are embedded as interactive HTML, which plays in Jupyter but not in GitHub's notebook viewer; the Lorenz and Animation labs also keep their original 2018 animations as `.mp4` files.
 
 ## Credits
 
-The lab specifications come from the [Foundations of Applied Mathematics](https://foundations-of-applied-mathematics.github.io/) *Volume 4* lab manual, © Dr. J. Humpherys, licensed under [CC BY 3.0 US](http://creativecommons.org/licenses/by/3.0/us/). The images come from the original lab materials. Problem statements are quoted from the specs; the solutions are my own.
+The lab specifications come from the [Foundations of Applied Mathematics](https://foundations-of-applied-mathematics.github.io/) *Volume 4* lab manual, © Dr. J. Humpherys, licensed under [CC BY 3.0 US](http://creativecommons.org/licenses/by/3.0/us/). The images and data come from the original lab materials and the project's official [data repository](https://github.com/Foundations-of-Applied-Mathematics/Data). Problem statements are quoted from the specs; the solutions are my own.
